@@ -39,3 +39,13 @@ In a shared project on Dardel, group members do not automatically have write per
 `groups`will give you a list of the projects you have access to. 
 
 `projinfo` will give you more information on the projects your are a part of - resources limits and usage etc. 
+
+# which partition should I run my analyses from?
+
+https://nf-co.re/configs/pdc_kth/
+
+# access to files
+
+Check down below for `Access Control Lists`, to give specific users permission to files you own. This is necessary when working in a shared project.
+
+https://support.pdc.kth.se/doc/support/?section=/doc/support-docs/basics/quickstart
