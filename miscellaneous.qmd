@@ -17,9 +17,18 @@ To prevent conda, singularity or apptainer to use up precious storage in your ho
 In you home directory, open the hidden file `.bashrc`. Add, save and re-start the ssh connection: 
 
 ```{.bash}
+# Set conda package location
 export CONDA_PKGS_DIRS=$PDC_TMP/conda/packages
+
+# Set Apptainer build path for temporarily pulling and converting images
 export SINGULARITY_CACHE=$PDC_TMP/singularity/cache
 export APPTAINER_CACHE=$PDC_TMP/apptainer/cache
+```
+
+# clean out apptainer cache every now and then to prevent clogging your home directory
+
+```{.bash}
+apptainer cache clean 
 ```
 
 # backups on Dardel
@@ -29,6 +38,7 @@ Remember: nothing is backed up on Dardel
 # Home directory
 
 Your home directory is visible to everyone, unless you change permissions. 
+It has a hard ceiling on the number of files - see above on how set up your apptainer or conda if you use it to not run into this ceiling. 
 
 # Permission in shared projects
 
