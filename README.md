@@ -46,6 +46,12 @@ It has a hard ceiling on the number of files - see above on how set up your appt
 
 In a shared project on Dardel, group members do not automatically have write permissions. 
 
+# access to files
+
+Check down below for `Access Control Lists`, to give specific users permission to files you own. This is necessary when working in a shared project.
+
+https://support.pdc.kth.se/doc/support/?section=/doc/support-docs/basics/quickstart
+
 # project information
 
 `groups`will give you a list of the projects you have access to. 
@@ -55,12 +61,6 @@ In a shared project on Dardel, group members do not automatically have write per
 # which partition should I run my analyses from?
 
 https://nf-co.re/configs/pdc_kth/
-
-# access to files
-
-Check down below for `Access Control Lists`, to give specific users permission to files you own. This is necessary when working in a shared project.
-
-https://support.pdc.kth.se/doc/support/?section=/doc/support-docs/basics/quickstart
 
 # download NGI data to Dardel
 
