@@ -61,3 +61,8 @@ https://nf-co.re/configs/pdc_kth/
 Check down below for `Access Control Lists`, to give specific users permission to files you own. This is necessary when working in a shared project.
 
 https://support.pdc.kth.se/doc/support/?section=/doc/support-docs/basics/quickstart
+
+# download NGI data to Dardel
+
+Data download on Dardel: For data downloads on Dardel, please log into the dedicated file transfer node: [dardel-ftn01.pdc.kth.se](http://dardel-ftn01.pdc.kth.se/). Do NOT submit data-transfer jobs to the queueing system, run them directly on that node.
+
