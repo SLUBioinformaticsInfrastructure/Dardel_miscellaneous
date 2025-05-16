@@ -78,3 +78,12 @@ Host github.com
 	User git
 ```
 
+## central databases
+
+are located here: 
+
+```
+/pdc/software/resources/blastdb/
+```
+
+and can be reached with the following shortcut: `$BLASTDB`. 
